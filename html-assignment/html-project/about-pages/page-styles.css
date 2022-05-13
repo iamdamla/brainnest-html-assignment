@@ -1,0 +1,39 @@
+* {
+  margin: 0 auto;
+  background-color: #e1e9f2;
+}
+img {
+  height: 300px;
+  width: 200px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+h1 {
+  margin: 20px;
+  text-align: center;
+}
+p {
+  margin: 30px;
+  font-size: larger;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: larger;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.hobby {
+  width: 400px;
+}
+.container-hobby {
+  margin-left: 20px;
+}
+.container-hobby li {
+  list-style-type: disc;
+}
